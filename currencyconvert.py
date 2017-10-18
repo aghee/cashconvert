@@ -1,6 +1,6 @@
 
-#1 usd=0.7617euros
-#1 euro=1.3138 usd
+#1 usd=0.7620euros
+#1 euro=1.3140 usd
 def currencyconvert():
 	userchoice=raw_input("what do you want to convert?\n1.usd to euro \n2.euro to usd\n")
 	if userchoice=='1':
