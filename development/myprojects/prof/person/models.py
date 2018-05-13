@@ -9,7 +9,6 @@ class edu(models.Model):
 class pdetails(models.Model):
     name=models.CharField(max_length=100)
     DoB=models.DateTimeField()
-    residence=models.CharField(max_length=100)
     maritalstatus=models.CharField(max_length=100)
     email=models.EmailField()
     hobbies=models.TextField(blank=False,null=False)
