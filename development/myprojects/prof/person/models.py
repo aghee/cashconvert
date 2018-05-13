@@ -11,6 +11,7 @@ class pdetails(models.Model):
     DoB=models.DateTimeField()
     residence=models.CharField(max_length=100)
     maritalstatus=models.CharField(max_length=100)
+    email=models.EmailField()
     hobbies=models.TextField(blank=False,null=False)
     def __str__(self):
         return self.name
